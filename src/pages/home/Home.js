@@ -21,7 +21,7 @@ const styles = {
     justifyContent: 'center',
     alignItems: 'center',
     height: '100vh',
-    background: "url(/assets/background.png) no-repeat 100% 100%"
+    background: "url(/assets/background.png) no-repeat 100% 90%"
   },
 }
 
