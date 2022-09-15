@@ -32,6 +32,11 @@ function Login(props) {
     setLoading(false)
   }
 
+  const checkValidity = (status) => {
+    setError('')
+    setFormValid(status)
+  }
+
   return (
     <>
       <img width={165} height={25} src={Logo} alt='logo' className="heading" />
@@ -42,11 +47,11 @@ function Login(props) {
             {error.length > 0 && <Error message={error} />}
             <TextInput
               label={'Work Email'} type={'text'} placeholder={'janedoe@abc.com'} name={'Email'}
-              setValidity={(status) => setFormValid(status)}
+              setValidity={checkValidity}
               setValue={(email) => setEmail(email)} />
 
             <TextInput label={'Password'} type={'password'} placeholder={'Enter password here...'} name={'Password'}
-              setValidity={(status) => setFormValid(status)}
+              setValidity={checkValidity}
               setValue={(password) => setPassword(password)} />
 
             <div className="forget-password-link f-14"><span id="forgot-password-link">Forgot Password?</span></div>
@@ -82,7 +87,7 @@ const styles = {
   },
   contentInner: {
     padding: 60,
-    paddingTop: 50,
+    paddingTop: 40,
   },
 }
 
