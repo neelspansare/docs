@@ -1,0 +1,33 @@
+@font-face {
+  font-family: "LatoBold";
+  src: local("LatoBold"),
+    url("./fonts/Lato/Lato-Bold.ttf") format("truetype");
+  font-weight: bold;
+}
+
+@font-face {
+  font-family: "LatoRegular";
+  src: local("LatoRegular"),
+    url("./fonts/Lato/Lato-Regular.ttf") format("truetype");
+  font-weight: bold;
+}
+
+@font-face {
+  font-family: "LatoThin";
+  src: local("LatoThin"),
+    url("./fonts/Lato/Lato-Thin.ttf") format("truetype");
+  font-weight: bold;
+}
+
+body {
+  margin: 0;
+  font-family: 'LatoRegular', 'LatoBold', 'LatoThin';
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  overflow: hidden;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}

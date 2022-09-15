@@ -1,0 +1,17 @@
+.heading {
+  position: absolute;
+  top: 68px;
+  left: 100px;
+  text-align: right;
+
+  /* media queries */
+  @media (max-width: 767px) {
+    text-align: left;
+  }
+
+  @media (max-width: 400px) {
+    text-align: left;
+  }
+}
+
+

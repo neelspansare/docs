@@ -1,0 +1,90 @@
+.m-l-2 {
+  margin-left: 2px;
+}
+
+.m-r-2 {
+  margin-right: 2px;
+}
+
+ .m-t-10 {
+  margin-top: 12px;
+}
+
+.m-t-15 {
+  margin-top: 15px;
+}
+
+.f-18 {
+  font-size: 18px;
+}
+
+.f-14 {
+  font-size: 14px;
+}
+
+.f-24 {
+  font-size: 24px;
+}
+
+.font-face-l-b {
+  font-family: "LatoBold";
+}
+
+.font-face-l-r {
+  font-family: "LatoRegular";
+}
+
+
+.color-default {
+  color: #4d61fc;
+}
+
+.bold {
+  font-weight: bold;
+}
+
+.text-white {
+  color: #FFF;
+}
+.text-gray {
+  color: #414141;
+}
+.text-color {
+  color: rgba(24, 24, 24, .8)
+}
+
+.text-color-red {
+  color: #cc1424;
+}
+
+.border-none {
+  border-width: 0px;
+}
+
+.border-1 {
+  border-width: 1px;
+}
+
+.border-2 {
+  border-width: 2px;
+}
+
+.border-gray {
+  border-color: gray;
+}
+
+.border-blue {
+  border-color: #bbc2db;
+}
+
+.border-red {
+  border-color: #c70011;
+}
+
+.absolute {
+  position: absolute;
+}
+
+.hide {
+  display: none;
+}
